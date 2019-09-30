@@ -1,0 +1,26 @@
+@import "../../styles/index";
+
+.list {
+  padding: $gap/2 $gap/4;
+  box-sizing: border-box;
+
+  &__item {
+    width: 100%;
+    list-style-type: none;
+    text-align: left;
+    padding: $gap/2;
+    border: 1px solid #000000AA;
+    background-color: #fff;
+    color: black;
+    box-sizing: border-box;
+    margin-bottom: $gap/8;
+    font-size: 1rem;
+    &:nth-child(odd) {
+      background-color: $primary_bgc;
+    }
+    &:hover {
+      transition: transform 80ms linear;
+      transform: translateY(-1px) translateX(-1px);
+    }
+  }
+}

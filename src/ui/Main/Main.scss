@@ -1,0 +1,11 @@
+@import "../../styles/index";
+
+.main {
+  background-color: $primary_bgc;
+  margin: 0 auto 0;
+  width: 95%;
+  max-width: 1280px;
+  height: 100%;
+  padding: $gap/4 $gap/2;
+  box-sizing: border-box;
+}

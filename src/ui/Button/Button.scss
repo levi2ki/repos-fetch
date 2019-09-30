@@ -1,0 +1,33 @@
+@import "../../styles/index";
+
+.btn {
+  font-size: 1rem;
+  border: 0;
+  border-radius: 6px;
+  outline: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+
+  &:hover {
+    opacity: 0.85;
+    cursor: pointer;
+  }
+
+  &:active {
+    box-shadow: inset 0 0 7px -2px black;
+  }
+
+  &--default {
+    background-color: $primary;
+    color: $primary_color;
+  }
+
+  &--size-normal {
+    width: 120px;
+    height: 45px;
+  }
+  &--size-small {
+    width: 60px;
+    height: 25px;
+  }
+}

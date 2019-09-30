@@ -1,0 +1,9 @@
+@import "../../styles/index";
+
+.link {
+  color: $secondary_color;
+  font-weight: bold;
+  &:visited {
+    color: $link_visited;
+  }
+}

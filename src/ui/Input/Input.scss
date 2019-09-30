@@ -1,0 +1,21 @@
+@import "../../styles/index";
+
+.input {
+  height: 45px;
+  font-size: 1rem;
+  width: 300px;
+  box-sizing: border-box;
+}
+
+.input-label {
+  color: $secondary_color;
+  vertical-align: middle;
+  font-size: 1rem;
+  display: inline-block;
+  width: 120px;
+  box-sizing: border-box;
+}
+
+.input--size-small {
+  width: 60px;
+}
